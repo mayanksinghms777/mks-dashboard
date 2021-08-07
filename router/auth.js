@@ -11,9 +11,6 @@ require('../db/conn')
 const User = require('../models/userschema')
 const Employee = require('../models/empschema')
 
-router.get('/', (req, res) => {
-    res.send('Hello World!')
-})
 
 router.post('/register', async(req, res) => {
    
