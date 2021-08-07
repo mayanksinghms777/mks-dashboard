@@ -1,0 +1,61 @@
+.navbar-brand >img{
+  height: 50px;
+  margin-left: 20px;
+}
+.navbar{
+  background-color: rgb(245, 254, 255);
+  box-shadow: 0 5px 5px rgba(255, 255, 255, 9%),
+  inset 0 5px 5px rgba(255, 255, 255, 9%),
+   0 5px 5px rgba(0, 0, 0, 0.3),
+  inset 0 5px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.signup{
+  text-align: center;
+}
+.container{
+  border: 3px solid rgb(245, 254, 255);
+  height: auto;
+  margin-left: 20px;
+  box-shadow: 0 15px 15px rgba(255, 255, 255, 9%),
+  inset 0 15px 15px rgba(255, 255, 255, 9%),
+   0 15px 15px rgba(0, 0, 0, 0.3),
+  inset 0 15px 15px rgba(0, 0, 0, 0.3);
+  
+}
+.form-title{
+  font-size: 50px;
+}
+.row1{
+  display: flex;
+  height: 100%;
+}
+.middle{
+  background-color: rgb(231, 239, 255);
+  height: 100%;
+}
+.middle1{
+  background-color: rgb(245, 254, 255);
+  height: 100%;
+  width: 100%;
+}
+
+.vertical {
+
+  height: 100%;
+  width: 100%;
+  position:absolute;
+
+}
+.homepage{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+}
+.homepage1{
+  margin: auto;
+  display: block;
+}
