@@ -34,7 +34,7 @@ function Signup() {
         })
 
         const data = await res.json();
-        if(res.status ===422 || !data){
+        if(res.status ===402 || !data){
             window.alert("Invalid registration")
             console.log("invalid registration")
         }else{
